@@ -4,7 +4,8 @@
 
 struct NODE {
 
-	int info;	struct NODE *link;
+	int info;	
+	struct NODE *link;
 
 } ;
 
