@@ -8,7 +8,8 @@ int Q[size], rear=-1,front=0;
 
 int isempty() {
 
-	if(front == -1 || front > rear)		return 1;
+	if(front == -1 || front > rear)		
+		return 1;
 
 	else
 
